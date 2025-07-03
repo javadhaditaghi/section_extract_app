@@ -1,11 +1,11 @@
 # sections.py
 import re
 from pathlib import Path
-from config import DIR_ABSTRACTS, DIR_INTRODUCTIONS   #  ← new imports
+from config import DIR_ABSTRACTS, DIR_INTRODUCTIONS
 
 
 # ------------------------------------------------------------------
-# 1)  “Stop” headings   (tweak if you see new thesis layouts)
+# 1)  “Stop” headings   (tweak if we see new thesis layouts :/ )
 # ------------------------------------------------------------------
 STOP_ABSTRACT = [
     "Abstract (Italiano)", "RIASSUNTO", "Abstract (Italian)", "Abstract (in Italian)",
