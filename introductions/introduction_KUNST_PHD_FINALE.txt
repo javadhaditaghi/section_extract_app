@@ -1,0 +1,425 @@
+“To a grammarian, text is a rich, many-faceted phenomenon that ‘means’ in many different ways.
+It can be explored from many different points of view. But we can distinguish two main angles of
+vision: one, focus on the text as an object in its own right; two, focus on the text as an instrument
+for finding out about something else. Focusing on text as an object, a grammarian will be asking
+questions such as: Why is it valued as it is? Focusing on text as instrument, the grammarian will
+be asking what the text reveals about the system of the language in which it is spoken or written.”
+Halliday and Matthiessen (2004: 3)
+1. Establishing the Study
+Halliday and Matthiessen above state that “text is a rich, many-faceted phenomenon that ‘means’ in
+different ways” and this study adopts the same viewpoint: language is rich and it is full of meaning. This
+thesis focuses on ‘text as an instrument’ and aims to reveal the generic structure of written-to-be-
+spoken language within the discourse of politics. The study postulates that sub-genres exist within the
+genre of political discourse and can be revealed by investigating the generic structure of political
+speeches.
+This study takes the standpoint that genre is “a staged, goal oriented, purposeful activity in which
+speakers engage as members of our culture” (Martin 1984: 25). It is further elaborated as “a staged,
+goal-oriented social process. Social, because we participate in genres with other people; goal-oriented,
+because we use genres to get things done; staged, because it usually takes us a few steps to reach our
+goals” (Martin & Rose 2007: 8). Sub-genre is interpreted as a genre belonging to an already established
+genre. And this study sees this corpus, the American presidential radio addresses, as a genre within
+political discourse and the data of this study as possible sub-genres of the radio address. In order to
+illustrate genre, the research examines the generic structure of such speeches and proposes a functional
+approach of analysing the thematic structure by way of Theme and Rheme, which is part of the textual
+metafunction of systemic functional linguistics (SFL) (Halliday 1994; Halliday and Matthiessen 2004;
+Eggins 2004; Thompson 2004).
+1
+In order to study the goal, social purpose and generic structure of written-to-be-spoken language of
+political discourse, study investigates the genre of the American Presidential radio address by way of a
+Thematic structure analysis. The radio address is its own genre within political discourse and it is
+embedded in the context of American culture. Scacci (2011) states, “genres exist in relation to certain
+situational constraints, the weekly address is unique in its routine response to the week’s events
+packaged for both public and press consumption”. The radio address thus is realised, operates and has
+expected functions within the context of an American president and Americans are familiar with the
+radio address due to its long history and tradition.
+There has been research on the presidential weekly radio address, but there is a gap of linguistic
+investigation of this genre. Martin (1984) researched Reagan’s return to the radio address, he revealed
+that Reagan felt other forms of communication, such a news conferences, were more restrictive and
+thus Reagan felt he was able to speak freely and be publically more present. Horvit, Schiffer, and Wright
+(2008) investigated the Sunday press coverage of the radio address from 1982 to 2005. Since the
+address is delivered on Saturdays, they found that the Sunday press coverage diminished over this time
+period including the number of paragraphs citing the president. Meernik and Ault (2013) researched
+the radio address from the perspective of foreign policy. They argued presidents have the ability to
+manipulate the agenda of foreign policy and make more tactical choices by placing more attention on
+domestic issues within the radio address. Han (2006) looked into the radio address as an old medium
+combined with new strategies, thus comparing the addresses of Reagan and Clinton. Jones and Rowland
+(2009) analysed the thematic overviews of Reagan’s addresses and researched his rhetorical strategies
+and ideology. Research more from a language perspective, Oddo (2011) investigated ‘us’ versus ‘them’
+through critical intertextual analysis (Thibault 1991), and compared the addresses of F.D. Roosevelt
+and G.W. Bush through their legitimization strategies, thus establishing that Bush was among many
+who misled the public into war. Oddo delved into the language of the addresses but did not contain any
+linguistic analysis especially not to mention from an SFL perspective. Moreover, Scacco (2011) analysed
+Obama’s radio address, but from a ritualistic rhetoric standpoint, and compared Obama’s addresses to
+that of Clinton’s to understand how they both projected their presidencies onto the public, again, not
+from a perspective of linguistics. Thus, there has been research on the radio address, but none from a
+strictly functional linguistic perspective. The present study aims to fill this gap within studies of this
+particular genre.
+The present study focusses on the Radio Addresses of President Barack Obama during his first term as
+President, 2009-2012. It concentrates on 4 different contexts of situations (repertoires) of the radio in
+order to investigate the possibility of sub-genres within this genre: the economy (4 addresses);
+2
+healthcare (4 addresses); man-inflicted tragedies (4 addresses); and Christmas (4 addresses).
+Ultimately, the study demonstrates that the generic structures of these addresses do vary according to
+context of situation and that it is possible to establish a sub-genre within the Radio Address. Below,
+Figure 1.1 visualises this:
+Genre: American Presidential Radio Address
+Sub-Genres of the American Presidential Radio Address:
+The Economy Health Care Man-Inflicted Tragedy Christmas
+Figure 1.1: Demonstrating Genre to Sub-genre
+This introductory chapter will first explain the functions of language, politics and discourse. Secondly, it
+will state reasons for studying the grammar of political discourse. Next, the main theoretical concepts of
+the study will be mapped out, from genre, cline of instantiation to context of situation. Fourth, the
+overall research objective will be addressed. This includes the research questions, the data, the
+analytical tool, the prospective results and the importance of the study. Finally, the structure of the
+overall thesis will be explained.
+1.2 The Function of Language, Politics, and Discourse
+The function and connection between language and any social activity is inherent, since “the nature of
+language has to be functional since language grows out of languaging and languaging itself is a form of
+social life” (Hasan 2001: 4). Social activities encompass many diverse events both written and spoken,
+such as greetings, cards, service encounters, casual conversations, arguments, telephone enquiries,
+instructions, lectures, debates, plays, jokes, or games (Martin and Rose 2007: 8). All types of social
+activities are related to different contexts of situations, and language is needed to communicate
+according to the various contexts. Thus, the construction of language is dependent on the context in
+which it was produced. Halliday (2009:56) explains that language provides the means by which we act
+as well as reflect on the environment. Further, Hasan (2001: 8) maintains that context (of situation) is
+important in two ways, first in shaping language as a system and then highlighting language as a
+process.
+This study stresses the importance of language, grammar, and the construction thereof within the
+context of political discourse. The term discourse may be described as “anything beyond a clause”
+(Schiffrin et al 2001:1). De Beaugrande (Rankema 2004: 49-50) has identified seven criteria for
+textuality: (1) cohesion, (2) coherence, (3) intentionality, (4) acceptability, (5) informativeness, (6)
+3
+situationailty, (7) intertextuality. Further, political discourse can be defined as discourse produced by
+actors or authors that commonly include politicians or political institutions (van Dijk 1997: 12).
+According to van Dijk (2008: 90), political discourse includes “members of more powerful social groups
+and institutions, and especially their leaders, have more or less exclusive access to and control over, one
+or more types of public discourse”.
+This functional connection between the social activity of politics and discourse is seen in Figure 1.2
+below (Miller 2005: 4). The outer circle shows the social activity of politics and is then realised (and
+dependent) on the language of political discourse in the second circle. The second circle shows the
+dependent link that discourse has on the context in which it is produced. Further, in order for political
+discourse to be realized in the second circle, it has a dependency on language and its grammar, noted in
+the third most inner circle. Thus, the discourse is dependent on the language and grammar and its
+variable options offered for the discourse to be constructed and produced within a ‘political’ context.
+Social
+Activity of
+Politics
+Political
+Discourse
+Language/
+Grammar
+Figure 1.2: connecting social activity to grammar adapted from Miller (2005: 4)
+The third and innermost circle of language and grammar is explained according to the systemic
+functional perspective (Halliday 2009: 341) as “that level of linguistic form at which operates closed
+systems”, and includes four underlying categories: unit, structure, class, and system. Eggins and Slade
+(2005: 48) state:
+one of the most powerful aspects of the systemic approach is that language is viewed as a
+resource for making not just one meaning at a time but several strands of meaning simultaneously. The
+simultaneous layers of meaning can be identified in linguistic units of all sizes: in the word, phrase,
+clause, sentence, and text.
+4
+The thesis investigates the layers of meaning in the grammatical unit of the clause of each radio
+address. The following section will highlight some reasons for studying the grammar of political
+discourse.
+1.2.1 Why Study the Grammar of Political discourse?
+The study of grammar is important. Halliday (2009: 51) poses the question: “what are the enabling
+factors of grammar that make grammar such an enticing field to explore?” And he (ibid: 51-52)
+immediately responds and sums up the answer in six concise salient points:
+(1) They are comprehensive: they can ‘mean’ anything we want.
+(2) They are extravagant: they always pack extra power.
+(3) They are telescopic: they carry their history with them.
+(4) They are non-autonomous: they interact with their environment.
+(5) They are variable: they change under differing conditions.
+(6) They are indeterminate: they work with approximations and tendencies.
+Incorporating Halliday’s summation with the study of political discourse, the following six points are
+directly connected to political discourse. First, “they are comprehensive: they can ‘mean’ anything we
+want”. Within political discourse control is a prominent feature and, van Dijk (2008: 90) notes that
+public leaders are able to access and control one or more variations of public discourse. In its potential
+for meaning ‘anything we want’, the grammar of language can be manipulated by politicians in such a
+way to make it mean exactly how they want it to mean. Thus, they have control over the production of
+the discourse they produce.
+Secondly, Halliday says “they are extravagant: they always pack extra power”. Power is a strong feature
+of political discourse. Chilton (2004: 3) views politics as a ‘struggle for power’ between those who are
+in a position of authority and ‘those who seek to resist it’. To reiterate van Dijk’s (2008: 90) point,
+“members of more powerful social groups and institutions” are the ones that have the power to
+produce political discourse. They are able to embed power into discourse, for example, by the use of
+evaluative language, pronouns, metaphors and modality. Thus, this second point is connects to the
+notion of power and political discourse because grammar has an extravagant way of packing power
+within the production of language.
+Third, he states “they are telescopic: they carry their history with them”. Political discourse has a long
+history, it traces back to Aristotle’s ethos, pathos and logos: ethos pertaining to persuasion, pathos
+5
+appealing to the audience’s emotions, and logos presenting ideas logically (Campbell 1998; Miller
+1993). Throughout time, political discourse has continuously perfected itself in its production and
+construction, including the opportunity for politicians to have learned from others’ examples of
+effective or of not so effective ways of communicating. As an example, the data of this study, the radio
+address was first delivered in 1933 and every president since then has delivered a radio address,
+including Obama. Therefore, it has had eighty-two years (as of 2017) to be continuously perfected
+throughout the last 14 presidents (including the current President).
+Points four and five are here explained concurrently, (4) “they are non-autonomous: they interact with
+their environment” and (5) “they are variable: they change under differing conditions”. As mentioned,
+language is produced out of given contexts, Thompson (2004: 10) believes that we are able to tell a
+great deal about the context in which language was produced, why it was produced, and the reasons it
+was expressed in a particular way. However, the contexts of politics are always changing and language
+changes according to various situations, for example it may be a campaign speech, an inaugural speech
+to begin a new administration or a radio address wishing the American people a merry Christmas. Thus,
+Halliday’s points four and five are applicable to political discourse, for political discourse does both
+“interact with their environment” and “change under differing conditions”.
+The last and final point offered by Halliday is grammar “(is) indeterminate: it work(s) with
+approximations and tendencies”. As grammar is indeterminate, so is political discourse: text is
+constructed differently depending on the context. As mentioned above, it may be a campaign speech, an
+inaugural address or a radio address. Thus, approximations and tendencies are found in political
+discourse. These approximations and tendencies can be seen through common patterning: metaphors
+(Beard 2000; Chilton 2004; Lakoff 1991), metaphor of war (Lakoff 2000), pronouns (Brown and Gilman
+1960), rule of 3 (Thomas et al 2004) and metonymy (Beard 2000; Chilton 2004) (discussed in chapter
+two). The following section maps out the main theoretical concepts of the thesis.
+1.3 The Overall Study: Mapping the Research
+While the previous section explained the function of language and political discourse, this section maps
+out the overall structure of this study and addresses the important notions that are discussed
+throughout the thesis. Figure 1.2 demonstrated the dependency between the social activity of politics,
+the discourse of politics and the language/grammar produced as a result of political discourse; this
+section delves into these notions on a functional theoretical level. Figure 1.3 above visually
+demonstrates the study by mapping out the discussions that will sequentially be developed throughout
+the following chapters. The following four points on the graph are discussed by walking one through
+6
+the study and demonstrate how the they are theoretically linked: (1) Genre and Generic Structuring
+(Context of Culture); (2) The Cline of Instantiation; (3) Instances of Text (Register/Context of Situation);
+(4) Then the data, different contexts of situation, economy, healthcare, man-inflicted tragedies, Christmas,
+which are analysed in this study.
+Genre:
+Radio Address
+Context of Culture
+(Social activity)
+Genre Structuring
+(the steps needed
+to reach the goal
+of the genre)
+1
+One Instance of Written/Spoken Sub Potential Instance Type Established System of
+Text (sub-genre) Language Potential
+(a discourse according to one Demonstrated through a repertoire evident through the context of
+particular context of situation – of similar registers culture
+Register, Field, Tenor, Mode: (grouping of similar discourses) (Discourse + Grammar)
+Ideational, Interpersonal, Textual)
+CLINE OF INSTANTIATION 2
+3
+7
+x(
+YMONOCE
+EHT
+)4
+)4
+x(
+ERACHTLAEH
+DETCILFNI-NAM
+)4
+X(
+SEIDEGART
+)4
+x(
+SAMTSIRHC
+ß4
+Figure 1.3: Mapping the Research adapted from Halliday and Matthiessen (2004: 27)
+Genre and Generic Structuring
+First, the study begins with the notion of genre (box 1), genre was referred to as a ‘social activity’ in
+figure 1.2; for the rest of this study the notion of social activity within language will be referred to as
+genre. As mentioned, this study refers to genre as a staged, goal-oriented and a social process (Martin &
+Rose 2007: 8). It can be identified as part of the context of culture that it is realized, for culture is
+embedded within genre. Culture can be viewed as a social-semiotic system which includes features that
+constitute the systems and processes of an established culture (Halliday 2009: 243). Further, discourse
+(text) in relation to context is an interaction that sets out to achieve a particular goal within culture,
+thus initiating a text of a particular genre. And text will then most probably unfold in a certain way
+(Eggins and Martin 1997: 236).
+Within box number 1 in Figure 1.3 is genre and the embedded box of ‘generic structuring’. Generic
+structuring inherently connects to genre, for it demonstrates the necessary stages needed in order to
+reach the goal of any given genre. Coffin et al (2010:252) define generic structuring as the following:
+[…] its unfolding organization (that) can be more usefully viewed from a functional perspective.
+(This) provides insight into how different genres enable language users to achieve their social purposes
+by moving through distinct functional stages.
+The written-to-be spoken discourse that occurs within this specific genre has an expected structure, in
+other words, it has its own generic structure, it follows in order to reach the goal of any particular radio
+address. An example of a general generic structure may be as follows: introduction + the most current
+event of the week or the most urgent matter needing to be addressed to the nation + conclusion. These
+notions of genre and generic structuring are further explained in chapter three.
+Cline of Instantiation
+Directly beneath box number one of ‘genre and generic structuring’, is box number two, the ‘Established
+System of Language Potential’. This box connects to the other two boxes, (from readers right to left)
+‘Sub Potential Instance type’ and ‘One instance of written/spoken text’ (box 3). These three boxes are
+sequentially connected and are known as the cline of instantiation. Halliday (2009: 162) generally
+interprets a cline as graduations and continuities and does not view them as discrete classes but as a
+continuous scale. Further, Halliday and Matthiessen (2004: 27) explain the cline of instantiation as
+follows:
+Patterns (that) can be viewed either from the system pole as sub-systems (right), or from the
+instance pole, as instance types (left). If we start at the instance pole, we can study a single text and then
+look for other texts that are like it according to certain criteria. When we study this sample of texts, we
+can identify patterns that they all share, and describe these in terms of text type. By identifying a text
+type, we are moving along the cline of instantiation away from the text pole towards the system pole.
+This study applies Halliday’s notion of cline of instantiation for the purpose of investigating the
+possibility of sub-genres within the radio address. Indicated in the box on the right, is the established
+system of language potential, which this study connects and argues is inherently connected to the
+notion of genre and generic structure. And, as is being here discussed, one example of an established
+8
+genre is the radio address. The study begins from the notion of genre, from varying situations within
+this already established genre, because particular contexts of situation, with both general and specific
+purposes within language, functions within ‘typical conglomerations of linguistic resources’ (Miller
+2017: 16). The study discusses how a cluster of singular texts, as seen on the left, ‘One instance of
+written/spoken text’, may have the potential to move towards the right of the cline to ‘sub potential type’
+and finally to the ‘established system of language potential’ which could then lead to a potential sub-
+genre within an established genre.
+Instances of Text and the Analysis
+In box number three, one instance of written or spoken text, is ‘text’ (language) seen from a close point of
+view, showing instances taken from the potential of a particular text (Halliday 2009: 236). This step of
+the study brings an instance of text to the level of context of situation. Context of situation can be
+recognised by working bottom-up through text, such as that of a single radio address. A single radio
+address can then be grouped together according to similar contexts of situations. Box number four
+demonstrates the varying contexts of situation analysed in this study (economy, healthcare, man-
+inflicted tragedies, Christmas) to determine the potential of sub-genres within these varying contexts.
+Genre is inherently connected to context as mentioned, Eggins and Martin (1997: 236) state it is “an
+interactant setting out to achieve a particular cultural goal (that) is most likely to initiate a text of a
+particular genre, and that text is most likely to unfold in a particular way”. Here to reiterate, they state
+that a particular genre will most likely unfold in a certain way. They (ibid) continue to say, “but the
+potential for alternatives is inherent in the dialogic relationship between language and context.” Thus,
+there is a possibility for alternatives within an established genre, and this study aims to investigate the
+possibilities of alternatives within a genre.
+Linked to the level of context of situation is the notion of register (Halliday 1979; Halliday and
+Matthiessen 2004; Eggins and Martin 1997; Thompson 2004; Lukin 2008; Miller 2017) and its three
+variables: field, tenor, and mode (discussed in chapter three). For the moment, one can state that
+Halliday (1979: 201) defines register as “relevant features of a situation in which language has some
+place are the field of social process, the tenor of social relationships and the mode of discourse itself”:
+that is (i) what is going on, (ii) who are involved, and (iii) what part the text is playing – whether
+written or spoken, in what rhetorical mode and so on; field answers: what is the text about, tenor
+answers: who is taking part in the discourse, and mode answers: how is the language being used, what
+realization resources are being used (written, spoken, visual resources, multimodal).
+9
+The field, tenor, and mode of the data are the following: field is President Obama speaking to the nation
+regarding the most current events of the week; tenor is the US president speaking to the American
+people (including Congress or his administration); and mode is written-to-be-spoken discourse,
+presented in multimodal ways (the radio, video, internet, written transcripts). At this level of genre, it
+does not reveal much about specific contexts of situation. Thus, by emphasizing register, the study will
+investigate varying contexts of situation, to understand if sub-genres will emerge. For example, what is
+the register when President Obama specifically speaks about the economy? Or what is the register
+when he wishes the nation a happy holiday for Christmas?
+1.3.1 Overall Research objective and Research Questions
+To recapitulate, this study postulates that sub-genres exist within diverse contexts of situation within
+the same genre of American radio address. The overall objective is concerned with the functional
+perspective of genre in regards to the data. The aim is to reveal possible sub genres of political
+discourse in varying contexts within this discourse by investigating the generic structure of the radio
+address. Theme and Rheme, the strand of textual meaning of SFL, is proposed as an effective tool to
+reveal the generic structures of the data.
+The research questions of the study are as follows:
+1. Are there potential sub-genres within the genre of the American presidential radio address?
+2. Does the context of situation play a vital role in determining the possibility of sub-genres? If so,
+to what extent does the stability of a contextual situation influence the stability of a possible
+sub-genre and/or vice versa?
+3. How then to reveal sub-genres within a genre? Would an analysis of the generic structure of the
+addresses be a viable option?
+4. Further, to investigate the generic structure, would Theme/Rheme analysis be an effective
+method in determining the generic structure?
+1.3.2 Data and Methods Summary
+Data
+In order to investigate the above theoretical questions, this study analysed the American Presidential
+Radio Address. It is a weekly radio address of the President of America to keep the American people
+informed of the current events of the week. It began with President Franklin D. Roosevelt, and since
+10
+him, every U.S. president has used this form of communication, including Barack Obama. The study
+analysed the radio addresses of President Obama during his first term as President, 2009-2012. Obama
+delivered a total of 205 addresses (see appendix for list of all 205) during his first term. In this research,
+there are four different groupings of the radio address delivered by Obama: the economy (4 addresses);
+health care (4 addresses); man-inflicted tragedies (4 addresses); and Christmas (4 addresses). The data
+has been systematically chosen, for example the economy comprises his first 4 addresses delivered on
+the economy; health care includes his first 4 addresses delivered on this topic; man-inflicted tragedies
+covers his only 4 addresses delivered on these type of tragedies during his first term; and Christmas
+comprises his only 4 addresses delivered on Christmas during his first term. Thus, the study focuses on
+4 varying contexts of situation to investigate the possibility of sub-genres within this genre. This will be
+further discussed in detail in chapter four.
+Methods
+SFL concerns itself with revealing ‘how the organization of language’ is related to function. It models
+“language and social context as a semiotic system in relationship to realization with one another”
+(Martin 1997: 4). It is elaborated by a social context model and “language metaredound” (Lemke 1995),
+meaning “social context comprises patterns of language patterns” (Martin 1997: 4). SFL investigates
+patterning of language. As Eggins and Slade (2006: 48) state, “the systemic model is rich in analytical
+techniques, allowing the analyst to focus on those patterns which are most relevant to specific data and
+research interests.”
+The above paragraphs explained the functional perspective of genre and generic structuring. Cline of
+instantiation was introduced to visually demonstrate how an instance of text can move up the cline and
+become a recognizable system of language, genre. Register, context of situation (Field, Tenor, Mode),
+was introduced as a way to reveal texts in specific contexts.
+The three variables of register (field, tenor, mode) are linguistically realized through the metafunctions
+of SFL: ideational, interpersonal, and textual. Each of which are explained in brief simplistic terms:
+Ideational is how one views the world and is linguistically realised through verbal processes
+(transitivity), the Interpersonal relates to social interaction and is linguistically realised via the mood
+system (subject and finite), modality, and the appraisal system (the language of evaluation). And last,
+the Ideational and Interpersonal metafunctions are held together by the Textual metafunction, for one
+“negotiate(s) ways of talking about that world: what kind of texts we can construct to represent
+ideational and interpersonal meaning” (Eggins and Slade 2006: 50-51). The textual metafunction is
+11
+realised through cohesive devises such as conjunctions, and reference as well as the thematic structure
+(Theme and Rheme).
+Part of the textual metafunction of SFL is Theme/Rheme. It is used as the analytical tool to reveal the
+generic structure of the data. It is used to answer if similar types of addresses can be identified as a sub-
+genre. Theme is the ‘starting-point’ of the message; thus it determines what the clause is going to be
+about (Halliday 1994: 38). Lipson (2006:147) explains that “it is part of the clause that is given special
+textual status; Theme is what I, the speaker, have chosen for the message.” Theme gives the clause its
+character as a message, it reveals the flow of the message and what the speaker or the writer decides to
+place in the beginning of a clause in order to gain particular emphasis (Halliday 1994: 38). This study
+argues that Theme/Rheme is the most effective tool to use to determine the generic structure of the
+data; to determine if patternings are similar with other patternings which may then result in a possible
+sub-genre. These methods are further explained in chapter three.
+1.3.3 Research Parameters
+The study focuses on the notion of genre and generic structuring of political discourse from a systemic
+functional linguistic perspective by using Theme/Rheme of the textual metafunction. This work does
+not include such fields of study as American Presidential Rhetoric (Campbell & Jamieson 1990; Hart
+1984; Snyder & Higgins 1990; Stuckey 1989; Windt 1983), which is a vast field of its own. However, the
+study recognises previous research on political discourse, for example, the use of pronouns (Wilson
+1990; Chilton & Schaffner 1997; Fairclough 2003; Chilton 2004), common patternings found in political
+speeches (Hart 1986), such as metaphors, metaphor of war (Lakoff 2000), and rule of 3 (Jones and
+Peccei 2004). The study further recognises the importance of understanding the notion of power within
+political discourse from the fields of critical discourse analysis (CDA) and political discourse analysis
+(PDA). Power plays a large part in the content of these addresses, but it does not play a vital role within
+the analysis of the generic structure of each individual address. Political discourse will be discussed in
+chapter two. Specifically, this research focuses on four diverse ‘repertoires of registers’, with each
+repertoire comprising of four radio address topics: (1) the economy, (2) healthcare, (3) man-inflicted
+tragedy and (4) Christmas. Each address within each repertoire was analysed for Theme/Rheme to
+determine its generic structure and then was compared and contrasted to the other addresses within
+that topic to investigate the hypothesis that they are similar in generic structure, thus a potential sub-
+genre. Further, to highlight the possible sub-genre of one repertoire of registers, the generic structures
+of each repertoire of registers were then contrasted with the other repertoires to reveal how they
+unfold differently when compared to the others.
+12
+1.3.4 Importance of Study and Prospective Results
+The importance of this study is threefold. First, it reveals the generic structure of political speeches by
+demonstrating the effectiveness of Theme/Rheme within SFL as an analytical tool. Secondly, it
+highlights the notion of context of situation within political discourse, it establishes the importance of
+register and its three variables (field, tenor, mode) according to different ‘contexts of political situations’
+within discourse. And thirdly, the study shows how the structure of political speeches changes
+according to the context in which speeches are given, thus establishing the notion of sub-genres.
+The analysis reveals, from the four different categories that the more stable the situation was, the more
+stable the generic structure was for that group of addresses. For example, the Christmas addresses
+resulted in a very stable and expected generic structure, as the register of the context of situation for
+Christmas does not change. Another somewhat stable situation was the register on the economy, where
+President Obama persistently fought for the passing of the American Recovery and Reinvestment Act
+(ARRA). These addresses had a somewhat stable generic structure since the register of them were
+similar.
+1.4 Structure of the Thesis
+This thesis is divided into the following nine chapters. Chapter two will review previous research on
+political discourse, such as the ideology of power (CDA, PDA), common patternings found in political
+speeches and the most recent research on the notion of genre and political discourse. Chapter three will
+discuss genre and the notion of context of culture. It will explain generic structuring and its inherent
+relation to genre within relation to SFL. Then, the three metafunctions of SFL, Ideational, Interpersonal,
+Textual, will be discussed. The Textual metafunction will be strongly emphasized because the system of
+Theme/Rheme was determined the most beneficial to analyse the generic structures of the data.
+Chapter four will introduce the data and methods. It will discuss the history of the radio address,
+including an interesting parallel between Franklin Delano Roosevelt (FDR), the first president to begin
+the radio address, and President Barack Obama. It will discuss the specific data (addresses on the
+economy, healthcare, man-inflicted tragedies, Christmas) and why this particular set of data was
+selected. Further, the methods used for the analysis will be explained. Chapters five to eight will be the
+analytical chapters: chapter five will investigate the genre and generic structuring of the 4 addresses on
+the economy, chapter six examines the genre and generic structuring of 4 addresses where Obama
+discusses problems of the healthcare system in the United States. Chapter seven explores how he
+responded to man-inflicted tragedies by examining the genre and generic structuring of those 4
+addresses. Finally, chapter eight investigates the genre and generic structuring of the 4 Christmas
+13
+addresses delivered during his first term. The thesis will then conclude with chapter nine, where it will
+discuss the main findings, as well as its relevance. The study will also be evaluated with its implications
+and possibilities for further research.
+14

@@ -1,0 +1,38 @@
+The dissertation focuses on diachronic variation in a professional genre which has gained
+growing importance over time in the field of museum public relations: exhibition press
+announcements (EPAs). Keeping a middle ground between media and art discourse, EPAs are
+written for journalists in charge of reviews, although, once they are published on museum websites,
+they are also able to reach general audience.
+For the purposes of this research a new corpus was compiled, the EPA Diacorpus, made up
+of 300 thousand words (tokens) and comprising 378 EPAs dating from 1950 to 2009, half issued by
+American and half by British museums.
+The data processing consisted of different stages, from computer-based to manual analysis
+of the texts. In order to become acquainted with the data and aware of the types of research
+questions that could prove worthy of investigation, a preliminary analysis was carried out. In view
+of the related findings, it was stipulated to concentrate the exploration of the EPA Diacorpus on two
+main linguistic aspects: diachronic lexical variation and diachronic structural variation.
+The lexical analysis allowed to report a number of lexical trends reflective of changes in the
+way exhibitions are organized and artists are selected. A significant phenomenon is the shift from
+one-item to multi-item exhibitions: the decline of the word picture in its singular form, rather than
+in its plural, typically pre-modified by a determiner (the, this), in parallel to the increase of other
+plural nouns identifying art works to put on display (images, works, objects) leads us to that
+conclusion. Moreover, something has changed in the way artists are selected for exhibitions: they
+do not have to be famous – another declining word –, nor great or known, since the latter adjectives
+preferably refer to their work, but they definitely must have an acknowledged career, a noun
+showing a clear pattern of growth across decades. Young artists, conversely, have fewer advantages
+in the art scene, as reflected by the lexical choice of EPAs, where less than 30 occurrences can be
+ascribed to the semantic field of youth. Art subjects may change, and portraits – an increasing item
+– may be more intriguing for our times, but a landscape is still a must for any exhibition, as well as
+drawings and paintings, to mention some lockwords of the corpus. The analysis also highlighted a
+preference for more vivid descriptions, not filtered by distancing verbs: the decline of the forms
+shown and shows can be interpreted in these terms.
+Coming to the structure analysis, while contemporary EPAs show a more consistent scheme,
+the one provided by earlier texts is varied. Yet a prototypical structure comprised of three main
+moves may be already highlighted in the 1950s: a brief announcement of the exhibition, an
+ix
+explanatory section on the topic, and some pieces of information specific for the press members,
+soliciting their response, although in a very implicit way. Starting from the 1980s two promotional
+moves have been highlighted: one establishing credentials for the exhibition by stating its credits,
+such as organization, curatorship and sponsorship, and one providing technical information for
+visitors (opening hours, free or charged admission, how to buy tickets, collateral events, etc...).
+x

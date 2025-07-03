@@ -1,0 +1,366 @@
+The present work shows the results of a corpus-based diachronic study on the language and
+the structure of a professional textual genre which has gained growing importance over time in the
+field of museum public relations: exhibition press announcements (EPAs).
+EPAs are press releases issued by a museum in order to announce an up-coming exhibition
+and are meant for a restricted category of journalists, those in charge of arts reporting and criticism.
+They belong to the press materials periodically released by a museum, which range from
+announcements of seasonal programs – i.e. texts which summarize the main events scheduled in the
+year – to single exhibition announcements, devoted to one display in particular; from ordinary news
+about the museum, such as announcements of artist talks, presentations of films or books,
+accomplishments, awards, new appointments, philanthropic events, to crises responses released in
+order to protect the image of the institution.
+Contemporary EPAs are generally characterized by short paragraphs and a simple layout
+(see Fig. 1.1). They often provide an attention-grabbing image below the headline and include
+contact details and background information on the museum.
+Despite their undoubted affiliation to the textual genre of press releases, it would be limiting
+to present EPAs as a mere subgenre of this category. The high level of creativity characterizing
+EPAs, both in terms of lexical choices and structure, their strong promotional intent, often realized
+through a massive use of evaluative language and emotional linguistic features, their capacity to
+address media people as well as the lay public through their e-dimension (Lazzeretti/Bondi 2012),
+encourage readers to consider them as a genre worth of interest per se, sharing its own peculiar
+features, as well as its own rules.
+EPAs can be comprised under Ravelli’s wide definition of ‘texts in museums’ (2006:2), i.e.
+written explanatory texts which function as communication tools between the institutions and their
+audiences, and have become crucial especially in consequence of the development of thematic
+exhibitions characterized by strong educational goals and aiming to appeal to a wide range of
+visitors (McManus 2000, Schiele 1995, Jacobi/Poli 1995): a phenomenon that can be dated back to
+the 1940s and is still ongoing. Moreover, they can be considered prime examples of what scholars
+have been alternatively calling ‘artwriting’ (Carrier 1987), ‘artspeak’ (Atkins 1990, Harris 2003),
+‘art talk’ and ‘artworld discourse’ (Irvine 2004–2009).
+EPAs are a little researched topic, yet their evolution over time is a current and high-relevant
+issue for museum professionals. There are at least two main aspects related to this genre that still
+need to be fully explicated: the first has to do with its evolution – or maybe we should say its
+1
+survival – in view of the advent of new public relations practices already adopted by museums, such
+as social media, community relations and web communication; the second concerns the origin and
+reasons of its strong promotional features, which have only been investigated from a synchronic
+perspective so far (Lazzeretti 2010; Lazzeretti/Bondi 2012).
+Figure 1.1 – Front page of an EPA issued by the J. Paul Getty Museum in 2007
+2
+With regard to the influence of new technologies and media on EPAs, it has to be pointed
+out that over the last few decades, long-established public relations practices, based on traditional
+tools, such as press releases and press conferences, have given way to a new paradigm, that places a
+higher value on web communication and social media, such as Twitter, Facebook and many others
+(Grunig 2009). These new media require also new writing skills and, in particular, a great ability to
+synthesize information which challenge the traditional ways of communicating with audiences. As
+well known by its users, Twitter allows to send very short messages – no more than 140 characters–
+(see Marwick/Boyd 2010); for Facebook there is no strict rule, but conciseness is however
+preferable, because users are generally confused and upset by seemingly endless messages (see
+Kaplan/Haelein 2010). Moreover, when mobile devices are used and text display is limited to a
+smaller screen, synthesis is an inevitable consequence. In contrast, an EPA generally covers at least
+two pages or even more and is generally associated with an in-depth presentation of the exhibition.
+It is interpreted by practitioners as a textual space where description and evaluation can take place
+at ease, a story can be told (for instance, the artist’s biography), and long quotations can be
+reported, if needed. So the questions to be addressed are: are EPAs threatened by new forms of
+communication? How do they face the adaptive change posed by the Internet and new
+technologies? Are they evolving or dissolving?
+Scholars have tried to identify the factors involved in genre change, looking at how variables
+associated with the various participants and contextual factors interact causing a given genre to
+change. As pointed out by Yates and Orlikowski (1992) in their study on genres typical of
+organizational communication, such as the memorandum and the proposal, a reciprocal relationship
+exists between the changing textual features of a genre and concomitant rules for use that are
+determined by people responding to a changing and demographic climate: “empirical research is
+needed to investigate the various social, economic, and technological factors that occasion the
+production, reproduction, or modification of different genres in different socio-historical contexts”
+(1992: 320). For instance, with the appearance of the typewriter, there emerged conventions such as
+underlining, subheads, and the use of all capital letters to facilitate readability (Yates/Orlikowski
+1992). According to Garzone (2012) the most radical transformations experienced by genres are
+indeed those induced by the spread of new technologies, mostly associated with Computer- and
+Web-Mediated Communication, which have opened up new, unexpected and virtually boundless
+discursive and social spaces, determining profound changes in existing genres as well as the rise of
+brand new genres. While for many genres, as for EPAs, a second life has begun on the web, many
+new genres have been born that are native to the web, such as emails, blogs, social networks, and
+3
+have unprecedented peculiarities in terms of mode of discourse (e.g. Askehave/Ellerup Nielsen
+2004; Garzone 2007) and unexpected influences upon pre-existing genres. Given this scenario, the
+evolution of a genre like EPAs seems particularly worthy of investigation.
+As for the second point – promotionality in EPAs –, it has to be noted that much has
+changed in the way these texts are received and used by recipients in the last decades. As press
+releases in general, EPAs were once sent exclusively to media people – by hand, mail, fax and e-
+mail – and did not reach the wider public directly. They were meant as a professional support for
+the work of journalists at newspapers, magazines, radio stations, television stations and networks,
+who could subsequently decide whether to use them or not in their articles or speeches. Nowadays
+press releases – and also EPAs – are placed on websites, with the consequence that journalistic
+intervention, also known as “gatekeeping”, can be completely bypassed in reaching audiences.
+Addressing directly the general public, which becomes “a ratified participant in the process of press
+release fruition” (Catenaccio 2008:15), e-releases can be used by corporations and institutions as
+direct marketing tools (see Strobbe/Jacobs 2005, Catenaccio 2008). Online EPAs, for instance, can
+become a source of information for tourists planning a visit to the museum, encourage advance
+booking, boost e-commerce and merchandising. There is so much potential in spreading online
+EPAs that nowadays many companies provide services of direct e-mailing of text and image press
+releases to databases of art professionals as well as lay people.1
+There is evidence that the e-dimension of press releases has been changing their use and
+language, justifying the shift towards a more promotional tone in comparison with traditional paper
+press releases (Strobbe / Jacobs 2005). Moreover, the internet has ignited an even stronger
+competition among press releases, not only within crowded journalists’ e-mail inboxes, which are
+still their most proper destination, but also on the web, where they can be selectively accessed.
+This daily struggle for attention, combined with the communicative purposes typical of the
+genre – the launch of a new art exhibition and the aim at arousing the interest of potential reviewers
+– has influenced EPAs as well, both in terms of lexical choices and textual structure. Reading a
+contemporary EPA, one could even gain the impression that journalists – and, indirectly, potential
+visitors – are addressed as ‘customers’ to be conquered within a very competitive market. Previous
+studies addressing promotional features in EPAs (Lazzeretti 2010; Lazzeretti/Bondi 2012) have
+shown an overwhelming use of adjectives, nouns and other linguistic patterns that express positive
+1 A significant example of this kind of service in the field of art is the international network e-flux (www.e-flux.com),
+which reaches more than 50.000 visual art professionals on a daily basis through its website, e-mail list and special
+projects. Its news digest – e-flux announcements – distributes information on contemporary art exhibitions, publications
+and symposia all around the world.
+4
+evaluation of the exhibition, often insisting on concepts of novelty, exclusiveness, uniqueness, and
+quality of the featured events; the inclusion of emotionally charged words, that trigger a reaction
+from the audience, in order to excite curiosity around the featured artists or their artworks, and
+therefore create news value, especially in the headlines of EPAs; the insertion of quotations and
+narrative sections aiming at providing journalists with suggestions and stories they can use; the
+recurring mention of a catalogue accompanying the exhibition on sale at bookshops. All these
+elements can contribute to classify contemporary EPAs among those professional genres that,
+according to Bhatia (2004: 90), are “designed to serve informative purposes”, but “invariably focus
+on only positive aspects and incorporate persuasive and sometimes even promotional elements”.
+Although press releases in general are openly disregarded by journalists, who often
+complain that they are badly written or too enthusiastic and self-celebratory, previous studies
+carried out in this field show that media people actually depend on the “information subsidies”
+provided by press releases (Gandy 1982: 61), as they cannot cover all newsworthy events in person.
+This turns out to be true for art journalists who necessarily rely on EPAs when writing about an
+exhibition they did not manage to visit. A golden rule is that you cannot review an exhibition before
+seeing it with your own eyes; nonetheless, many critics base their journalistic evaluation on press
+materials and interviews previously arranged, often as a consequence of their busy agenda or their
+physical distance from the exhibiting venue. Promotional language may therefore survive in their
+subsequent coverage, generating “free publicity” (Pander Maat 2007: 63). There is also evidence
+that “promotional language is dealt with differently in different sectors of the press” and that
+“special interest media are apparently quite willing to recycle promotional elements” (Pander Maat
+2007: 93). Probably art magazines and newspapers art sections belong to these categories sharing a
+more tolerant approach towards promotionally dressed up press releases, but in order to make
+claims in this sense a thorough ethnography-based process analysis should be needed. As suggested
+by Catenaccio, Cotter, De Smedt et al. (2011: 1848) “detailed empirical evidence for the journalistic
+use of source media” – the ‘‘news transmutation process’’ – could be explored with the help of
+current technology, “by tracking electronically and/or ethnographically shifts and changes in the
+text as it develops (locally and globally) towards its final version for publication or presentation”.
+However, once it has been ascertained that promotionality is a main feature of
+contemporary EPAs, a question arises: have promotional features characterized EPAs since their
+very first origin, or have they been more recently introduced as a consequence of external factors?
+Starting from these two main research questions – the evolution of the genre in view of the
+advent of new public relations practices and the origin and reasons of its strong promotional
+5
+features – a diachronic study on EPAs was carried out in order to find out how the genre has
+changed over time, what direction it is taking and what professional challenges lie ahead. An ad hoc
+corpus was compiled, the EPA Diacorpus, made up of 300 thousand words (tokens) and including
+378 EPAs, half issued by American museums and half by British museums, dating from 1950 to
+2009, while corpus linguistics and genre-analysis methodologies were used in order to explore its
+content.
+The diachronic evolution of EPAs can be put in relation to the great social and cultural
+changes taking place over the last decades of the past century, and especially with the advent of new
+technologies, new public relations practices and transition towards a more market-oriented concept
+of museum. Before starting the analysis, the relevant situational context – museums and public
+relations – needs therefore to be briefly outlined in the following section (1.1).
+6
+1683 Oxford Opening of the Ashmolean Museum
+1734 Rome Opening of the Capitoline Museum
+1759 London Opening of the British Museum
+1768 London Establishment of the Royal Academy of Arts
+1785 Madrid Opening of the Prado Museum
+1793 Paris Opening of the Louvre Museum
+1824 London Opening of the National Gallery
+1836 Munich Opening of the Alte Pinakothek
+1846 Washington Establishment of the Smithsonian Institution
+1852 London Opening of the Victoria and Albert Museum
+St.
+1852 Opening of the Hermitage Museum
+Petersburg
+1870 New York Opening of the Metropolitan Museum of Art
+1879 London Opening of the National Gallery of British Art (Tate Gallery)
+1929 New York Opening of the Museum of Modern Art
+1931 New York Opening of the Whitney Museum of American Art
+1935 New York Opening of the Frick Collection housed in the former Henry Clay Frick House
+Opening of the Guggenheim Foundation's first museum, ‘The Museum of Non-Objective
+1939 New York
+Painting’
+1954 Los Angeles Opening of the J. Paul Getty Museum
+1959 New York Opening of the Solomon R. Guggenheim Museum designed by Frank Lloyd Wright
+1964 Chicago Opening of the Chicago Museum of Contemporary Art
+Tab. 1.1 – Timeline of the most important modern museums in Western Europe and in the United States
+7
+1.1 The situational context: museums and public relations
+The development of a textual genre such as EPAs is strictly related to the innovations faced
+by museums from the post-war period up to now and to the gradual introduction of public relations
+strategies in their management.
+After World War II, in Europe particularly, many art treasures which had been removed for
+safety reasons had to be recovered and redisplayed; buildings also had to be refurbished. This
+reconstruction provided an opportunity for a new approach towards museums, to be seen as
+institutions not only serving scholars but a lay public as well (Lewis 2012). Curators in the larger
+museums began to work together with a team of scientists, conservators, designers, educators and
+even marketing managers to promote the museum and its work.
+In the post-war phase, therefore, a new awareness arose regarding the crucial function
+played by public relations in contributing to the overall success of the museum, from raising the
+media profile, managing their relationships with stakeholders, to attracting new audiences and
+regular attendees.
+While the first public museums in history were established in Western Europe, as shown by
+Tab. 1.1, providing a timeline of the most important modern museums set up from the 17th century
+onwards, the origins of museum public relations can be principally traced back to the United States,
+which has a tradition in this field. In the United States the birth of modern public relations is
+credited to pioneers like Ivy Lee, a former Wall Street reporter, who became a public relations
+counsellor for the Pennsylvania Railroad and the Rockefeller family in 1904, and Edward L.
+Bernays, who began to work in 1917 for the war’s publicity front and over the years represented
+hundreds of clients in all major fields of business. Bernays is also credited with coining the term
+“public relations counsel” in his first book on the subject, Crystallizing Public Opinion, originally
+published in 1923.
+In Europe the growth of public relations became evident in the late 1940s and throughout the
+1950s and 1960s, especially in the United Kingdom, where local governmental authorities were
+giving serious consideration to public communications. It was local government officials who were
+most responsible for founding the Institute of Public Relations (IPR) in the UK in 1948, the first
+organization of professional practitioners.
+8
+Although relatively little research addresses the field of museum public relations and more
+in instructional, rather than theoretical terms (see however Adams 1983, McLean 1997, Schoen
+2005, Kotler et al. 2008, Gürel / Kavak 2010), we may assume that the development of a public
+relations segment specifically meant for museums started in the US and subsequently spread in
+Western Europe. As pointed out by McLean (2012: 42), “marketing was introduced to American
+museums at roughly the same period as to UK museums […]. Nevertheless American museums
+have led the field in adopting marketing techniques and innovating with marketing practice”. At an
+earlier stage, the adoption of public relations practices brought about some concern among museum
+administrators, who feared that these may compromise a museum’s authentic mission: according to
+Finn (1984:59), the first time public relations specialists worked with museums was on “major
+exhibitions – particularly those sponsored by corporations that hope[d] to achieve public relations
+benefits” (1984:59). At the time, such commercial aspects sounded ill suited to museums strictly
+committed to cultural and educational aims. However, Finn (1984) states that major exhibitions
+appeal to the media (and also sponsors) independently from public relations and simply because
+they are interesting and newsworthy.
+Bearing in mind that public relations have become an integral part of museum operations
+and press officers play a very important part in the public relations work conducted by museums
+(Kotler et al. 2008), further evidence of the anticipating role played by American museums in this
+field may be obtained from exploring the EPA Diacorpus, compiled for the present study. The
+collected documents, dating back to the 1950s onwards and issued by nine different American and
+British museums, show that in American museums professional press officers were already
+employed and mentioned by their names on EPAs since the 1950s, while in British museums
+personal press contact is not provided before the end of the 1960s. At the New York Museum of
+Modern Arts, for instance, Elizabeth Shaw appears as “publicity director” since 1955; at the
+Solomon R. Guggenheim Museum, a public relations consultant, Peter Pollack, is mentioned with
+regularity from 1961 onwards. Conversely, EPAs belonging to the London Victoria and Albert
+Museum report on the headlines that they are issued by a “Department of Public Relations” only
+from 1968 onwards; at the London National Gallery the name of a press officer, Phyllis Rowlands,
+is mentioned on EPAs from 1975 onwards, while at the London Royal Academy a curator was
+dealing with the press in the early 1970s, Nicholas Usherwood, and a professional press officer –
+Griselda Hamilton Baillie – was appointed only afterwards.
+The 1950s were also crucial for the development of the textual genre of EPAs in
+consideration of the “growing specialization in professional profiles” employed in the media
+(Facchinetti et al. 2012: 103). From the half of the century “more and more domains were covered
+9
+by experts in their fields” (ibi. 103). Thus editors began, for instance, to hire an art expert, so as a
+fashion expert or a royal correspondent, in coincidence with the expansion of special sections in the
+newspapers. In this period EPAs were delivered by post or even by hand. In absence of a
+professional in charge of public relations, museum directors were used to writing EPAs.
+After World War II museums became an educational facility, a source of leisure activity,
+and a medium of communication. As a result, they also found a new popularity and attracted an
+increasing number of visitors. Statistics give an indication of the increase in the number of
+museums and in museum visiting. In the United States, of 8,200 museums reported for 1988, 75
+percent had been founded since 1950 and 40 percent since 1970. In the 1970s nearly 350 million
+visits per year were made to American museums; in 1988 the recorded figure was 566 million. One
+of the oldest established museums in Europe – the British Museum – regularly attracted more than 3
+million visits a year (Lewis 2012).
+Despite governments, particularly in Europe, acknowledged their contribution to museums,
+these have been much influenced by changing policies in public sector finance. In the second half of
+twentieth century the contribution of public funds to museums has remained static or has fallen, so
+that museums’ governing bodies and directors have had to seek funding from alternative sources.
+The need for marketing and fund-raising expertise, therefore, has been increasingly accentuated and
+the organization of “blockbuster exhibitions” has become central for the financial support art
+museums (Alexander and Alexander 2008). These events are not only capable of attracting visitors
+and increasing admission income and museum shop sales, but they also allow for cross marketing to
+increase tourism citywide. For instance, the 1996 Cezanne retrospective exhibition at the
+Philadelphia Museum of Art attracted more than half a million people in three months (Alexander
+and Alexander 2008: 44).
+Another reflection of the changed financial situation has been the introduction of admission
+charges. According to Lewis (2012) in 1984 none of the British national museums charged an entry
+fee, while ten years later almost half were doing so. The number of American museums charging
+fees for admission increased over a similar period from 32 percent to 55 percent. As pointed out by
+McFelter (2007), in August 2006, the Metropolitan Museum of Art in New York created a case
+when it announced a 33 percent increase — from $15 to $20 per adult visitor — to bring the Met’s
+recommended entry fee in line with those at other New York museums, most notably the Museum
+of Modern Art’s $20 charge.
+The opportunity of charging admission is under debate not only in the United States, but
+also in Britain, where free museums are a great tradition. On one hand, museum theorists argue that
+10
+admission fees may be the single biggest obstacle preventing museums from fulfilling their
+missions as educational institutions:
+“If they remain oriented toward their paying customers, museums will never become the
+town square that we are so fond of talking about. Drop the charges. I have reluctantly
+but unequivocally come to the conclusion that general admission charges are the single
+greatest impediment to making our museums truly and fully accessible”
+(Heumann Gurian 2006).
+On the other hand, an influential British art journalist, Jonathan Jones, recently wrote on the
+Guardian website : “charging for entry cannot be a taboo. […] Charging for entry is a better remedy
+than selling paintings, closing galleries or sacking staff. Might it even give visitors a keener sense of
+the value of some of the greatest experiences it is possible to have?”2.
+With increasing economic importance and shrinking sources of income, public relations has
+grown in importance for museums. According to McLean (2012), “the most significant threats to
+museums come from central and local government” (221). Museums are becoming more dependent
+on wealthy benefactors and public subsidy to generate income since the current political climate
+lacks long-term vision and policy cohesion. In this time of “financial stringency,” governments also
+take a lead role in encouraging museums to market themselves (McLean 2012: 37).
+In such a context, EPAs have a great potential, as they build relationships first with the
+media and, consequently, with the public, who can become “more involved in the choice and
+interpretation of exhibit topics” (Karp et al. 1992: 182).
+The use of new technologies by museums took off during the 1990s and grew rapidly during
+that decade. The fax, primarily used in the 1980s by businesses and government agencies, in the
+1990s became more common among the general public and museums as well. During the 1980s and
+the 1990s EPAs were mostly sent to the media via fax. A few years later the Internet made its
+breakthrough, and museums began e-mailing and sending documents and scanned images. The
+development of websites gave rise to the terms ‘museum without walls’, ‘post-museum’ and ‘virtual
+museum’ (Hooper-Greenhill 2000: 152–153). New technologies allowed museums to present more
+fluid and wide-ranging communications focused on particular events and conversations. On the
+2 http://www.guardian.co.uk/artanddesign/jonathanjonesblog/2011/jul/21/museums-charging-admission-entry-fees.
+11
+web these include online access to collections and databases; online exhibitions (text, image,
+audiovisual); virtual exhibitions (including 360-degree room views); virtual museums, the use of
+real and imaginary exhibition and gallery spaces; downloadable and streamed multimedia content
+(audio, video, podcasts); interactive gallery maps; dedicated sites, games and play spaces for
+children and young people; personalized spaces – creating own favourites and tagging objects; use
+of social media (blogs, Facebook, Twitter, Flickr, YouTube), and shopping online (exhibition
+tickets, merchandise). Virtual press rooms have also been created, allowing art journalists to access
+on line press materials selectively – and EPAs among them –, wherever and whenever they need
+them, without even calling the press officer. Although placed in specific press areas within
+museum websites and therefore apparently still reserved to a well defined professional category –
+journalists – EPAs have been turned into public documents and internet has rapidly changed their
+use and language.
+Indeed, over the last few decades, conventional public relations strategies, based on mere
+press coverage, have been challenged by social media, community relations, and corporate relations
+(Grunig, 2009). Nevertheless, media outreach remains a basic component of any museum public
+relations strategy (Kotler et al. 2008; Rentschler/Hede, 2007). Media releases, sometimes sent many
+months in advance, and media previews are still perceived by museums as useful tools for
+influencing the media’s opinion about their exhibitions (Genoways/Ireland, 2003), but also for
+driving public opinion and, hopefully, attendance.
+1.2 Research directions
+The present study is based on a diachronic corpus comprised of 378 EPAs, half issued by
+American museums and half by British museums. The collected EPAs are evenly distributed across
+six decades: 1950, 1960, 1970, 1980, 1990, 2000. The corpus has been explored in quantitative and
+qualitative terms following corpus linguistics and genre-analysis methodologies.
+The enquiry addresses the following research questions:
+- How has the genre changed in order to face the challenge posed by new
+technologies and by Internet in particular?
+- Are EPAs threatened by new approaches used in contemporary public
+relations, such as social media networks? Are they going to be replaced or will be able to
+survive?
+12
+- Have promotional features characterized the genre of EPAs since its earlier
+expressions or have they been more recently introduced as a consequence of external
+factors, such as new technologies, development of marketing, economical variables,
+globalization?
+- What lexical variation can be identified in EPAs from the 1950s up to now?
+- Is it possible to identify patterns of sharp growth, decline or stability in the
+frequencies of lexical items across the decades?
+- Has there been any lexical change reflecting socio-cultural change, for
+instance in the way exhibitions are organized, artists and subjects are selected?
+- What structural variation can be identified in EPAs from the 1950s up to
+now?
+- As the corpus is divided into two equal sub-sections, American and British, is
+it possible to highlight differences between the two in terms of diachronic variation?
+1.3 Outline of contents
+With regard to the organization of the thesis, the first part prepares the groundwork for the
+study, while the second goes deeper into the analysis. Since the methods applied in the study
+combine genre analysis and corpus linguistics, chapter 2–4 aim at introducing both methodologies
+extensively. Chapter 2 provides general information on genre theory, the development of written
+discourse analysis, the different approaches to genre and recent developments in this field. Chapter
+3 and 4 discuss the development of corpus linguistics methodologies, with special attention to
+diachronic studies. The relevant domains of EPAs, to be associated with professional discourse and
+in particular with media and art discourses, are presented in chapter 5. The design of the corpus, as
+well as the methods applied in the analysis, are presented in chapter 6 and 7. In chapters 8 and 9 the
+main analysis is carried out: the EPA Diacorpus is explored with regard to lexical and structural
+variation respectively. Conclusions are eventually drawn in chapter 10.
+13
