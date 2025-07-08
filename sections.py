@@ -71,6 +71,22 @@ from config import DIR_ABSTRACTS, DIR_INTRODUCTIONS
 from sentences import build_datasheet      # ← datasheet helper
 
 # ------------------------------------------------------------------
+# 1)  Helper
+# ------------------------------------------------------------------
+def derive_thesis_code(stem: str) -> str:
+    """
+    Convert a filename stem into a code like 'AL1', 'CS07', 'XX1', etc.
+    • First two letters found → discipline (upper‑cased)
+    • First run of digits      → index   (default '1' if no digits)
+    """
+    import re
+    letters = re.sub(r"[^A-Za-z]", "", stem)[:2].upper() or "XX"
+    digits  = re.search(r"\d+", stem)
+    number  = digits.group(0) if digits else "1"
+    return f"{letters}{number}"
+
+
+# ------------------------------------------------------------------
 # 1)  “Stop” headings   (tweak if we see new thesis layouts :/ )
 # ------------------------------------------------------------------
 STOP_ABSTRACT = [
@@ -122,6 +138,7 @@ def save_match(pattern: str, label: str, text: str, out_path: Path) -> str:
 def extract_sections(txt_path: str | Path) -> None:
     txt_path  = Path(txt_path)
     name_part = txt_path.stem
+    thesis_code = derive_thesis_code(name_part)
     text      = txt_path.read_text(encoding="utf-8", errors="ignore").replace("\r\n", "\n")
 
     # -- save each section and capture its text
@@ -141,4 +158,4 @@ def extract_sections(txt_path: str | Path) -> None:
 
     # -- build the CSV datasheet (only if at least one section was found)
     if abstract_text or intro_text:
-        build_datasheet(name_part, abstract_text, intro_text)
+        build_datasheet(name_part, abstract_text, intro_text, thesis_code=thesis_code)

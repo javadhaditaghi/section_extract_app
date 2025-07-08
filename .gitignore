@@ -1,0 +1,5 @@
+# Ignore all files inside the following folders
+Abstracts/*
+complete_thesis/*
+datasheets/*
+introductions/*
