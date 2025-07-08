@@ -1,7 +1,7 @@
 # run_pipeline.py
 from pathlib import Path
 import argparse
-
+from config import DIR_PDFS
 from pdf_to_txt import pdf_to_txt
 from sections import extract_sections
 
@@ -11,6 +11,19 @@ def main():
     args = parser.parse_args()
 
     pdf_file = Path(args.pdf)
+
+
+    # look inside DIR_PDFS automatically.
+    if not pdf_file.is_absolute() and not pdf_file.exists():
+        candidate = DIR_PDFS / pdf_file.name
+        if candidate.exists():
+            pdf_file = candidate
+        else:
+            raise FileNotFoundError(
+                f"Could not find {pdf_file} in the current directory "
+                f"or in {DIR_PDFS}"
+            )
+
 
     print("🔍 Extracting full text…")
     txt_file = pdf_to_txt(pdf_file)           # saved in complete_thesis/
