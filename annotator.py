@@ -130,7 +130,11 @@ for idx in tqdm(df.index, desc="Analyzing Sentences"):
     result = analyze_metadiscourse(sentence)
     df.at[idx, "Metadiscourse Analysis"] = result
 
+# output inside a folder called result
+output_folder = "result"
+os.makedirs(output_folder, exist_ok=True)
 
-# === Save results to a new Excel file ===
-df.to_excel("output_metadiscourse_analysis_3.xlsx", index=False)
+output_path = os.path.join(output_folder, "output_metadiscourse_analysis_3.xlsx")
+df.to_excel(output_path, index=False)
+
 print("✅ Analysis completed and saved to 'output_metadiscourse_analysis.xlsx'")
