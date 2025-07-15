@@ -19,7 +19,7 @@ file_path = "datasheets//ALL_DATASHEETS.csv"  # or "input.csv"
 df = pd.read_csv(file_path)  # use pd.read_csv() if using CSV
 
 # Limit to first 10 rows
-df = df.head(10)
+df = df.head(2)
 
 # Add a new column to store the output
 df["Metadiscourse Analysis"] = ""
@@ -90,6 +90,21 @@ to conclude, in conclusion, to sum up, in sum, summarise, summarize, overall, on
 Frame Markers (Sequencing)
 to start with, first, firstly, second, secondly, third, thirdly, fourth, fourthly, fifthly, next, last, two, three, four, five
 
+Output Format (for each sentence):
+Provide the output as a list of identified expressions in the following structure for each entry:
+{
+    "expression": "<highlighted metadiscourse expression>",
+    "confidence": <1–5>,
+    "note": "<optional note if unsure, else leave blank>",
+    "justification": "<brief reason based on rhetorical intent>"
+  },
+  {
+    "expression_2": "<2nd highlighted metadiscourse expression>",
+    "confidence": <1–5>,
+    "note": "<optional note if unsure, else leave blank>",
+    "justification": "<brief reason based on rhetorical intent>"
+  },
+  
 """
 
 
@@ -115,6 +130,7 @@ for idx in tqdm(df.index, desc="Analyzing Sentences"):
     result = analyze_metadiscourse(sentence)
     df.at[idx, "Metadiscourse Analysis"] = result
 
+
 # === Save results to a new Excel file ===
-df.to_excel("output_metadiscourse_analysis.xlsx", index=False)
+df.to_excel("output_metadiscourse_analysis_3.xlsx", index=False)
 print("✅ Analysis completed and saved to 'output_metadiscourse_analysis.xlsx'")

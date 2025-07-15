@@ -1,0 +1,39 @@
+index,thesis code,sentence,section,metadiscourse presence,metadiscourse category,metadiscourse feature,source_file,Metadiscourse Analysis,expression,confidence,note,justification
+1,AP1,"This thesis aims to expand understanding of how language varies according to context by investigating
+the written-to-be-spoken language of political discourse (Wilson 1990; Chilton and Schaffner 2002;
+Wodak and Chilton 2005; Fairclough 2003; van Dijk 2008; Cap et al 2013).",Abstract,,,,AppliedLing1_datasheet.csv,"{
+    ""expression"": ""This thesis aims to"",
+    ""confidence"": 5,
+    ""note"": """",
+    ""justification"": ""The phrase 'This thesis aims to' is a frame marker that announces the goal of the thesis, thus organizing the discourse.""
+  }",This thesis aims to,5,,"The phrase 'This thesis aims to' is a frame marker that announces the goal of the thesis, thus organizing the discourse."
+2,AP1,"Specifically, the study
+demonstrates the existence of sub-genres in varying contexts of situation within the genre of political
+discourse by investigating the generic structure of political speeches of similar registers, thus a
+‘repertoire of registers’ (Bakhtin 1986; Martin 1992).",Abstract,,,,AppliedLing1_datasheet.csv,"{
+    ""expression"": ""Specifically,"",
+    ""confidence"": 5,
+    ""note"": """",
+    ""justification"": ""The expression 'Specifically,' is used to guide the reader's attention to a particular point or detail, thus serving an interactive function in the text.""
+  },
+  {
+    ""expression"": ""thus"",
+    ""confidence"": 5,
+    ""note"": """",
+    ""justification"": ""The term 'thus' is used as a logical connective to indicate a conclusion or result, contributing to the organization of the discourse.""
+  }","Specifically,",5,,"The expression 'Specifically,' is used to guide the reader's attention to a particular point or detail, thus serving an interactive function in the text."
+2,AP1,"Specifically, the study
+demonstrates the existence of sub-genres in varying contexts of situation within the genre of political
+discourse by investigating the generic structure of political speeches of similar registers, thus a
+‘repertoire of registers’ (Bakhtin 1986; Martin 1992).",Abstract,,,,AppliedLing1_datasheet.csv,"{
+    ""expression"": ""Specifically,"",
+    ""confidence"": 5,
+    ""note"": """",
+    ""justification"": ""The expression 'Specifically,' is used to guide the reader's attention to a particular point or detail, thus serving an interactive function in the text.""
+  },
+  {
+    ""expression"": ""thus"",
+    ""confidence"": 5,
+    ""note"": """",
+    ""justification"": ""The term 'thus' is used as a logical connective to indicate a conclusion or result, contributing to the organization of the discourse.""
+  }",thus,5,,"The term 'thus' is used as a logical connective to indicate a conclusion or result, contributing to the organization of the discourse."
