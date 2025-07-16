@@ -63,9 +63,6 @@ def build_datasheet(
                     "thesis code": thesis_code,
                     "sentence": s,
                     "section": section,
-                    "metadiscourse presence": "",
-                    "metadiscourse category": "",
-                    "metadiscourse feature": "",
                 }
             )
 
