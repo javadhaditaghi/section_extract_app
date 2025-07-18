@@ -96,7 +96,7 @@ Frame Markers (Sequencing)
 to start with, first, firstly, second, secondly, third, thirdly, fourth, fourthly, fifthly, next, last, two, three, four, five
 
 Output Format (for each sentence):
-Provide the output as a list of identified expressions in the following structure for each entry:
+Provide the output as a list of identified expressions in the following structure for each entry (exactly this structure; do not add anything extra):
 {
     "expression": "<highlighted metadiscourse expression>",
     "confidence": <1–5>,

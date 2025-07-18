@@ -1,128 +1,3 @@
-# import pandas as pd
-# import ast
-# import os
-#
-# # Load the analyzed file
-# df = pd.read_excel('result/output_metadiscourse_analysis_3.xlsx')
-#
-# # Parse the stringified dict or list of dicts correctly
-# def safe_parse(x):
-#     try:
-#         return ast.literal_eval(x) if pd.notnull(x) else []
-#     except:
-#         return []
-#
-# df['expressions'] = df['Metadiscourse Analysis'].apply(safe_parse)
-#
-# # If any item is a dict, convert to a list of one item
-# df['expressions'] = df['expressions'].apply(lambda x: [x] if isinstance(x, dict) else x)
-#
-# # Expand expressions into separate rows
-# df_exploded = df.explode('expressions')
-#
-# # Normalize the dictionary values into separate columns
-# expression_df = pd.json_normalize(df_exploded['expressions'])
-#
-# # Drop the old expressions column and combine with the normalized one
-# df_exploded = df_exploded.drop(columns=['expressions']).reset_index(drop=True)
-# final_df = pd.concat([df_exploded, expression_df], axis=1)
-#
-# # Ensure 'result' folder exists
-# output_folder = "result"
-# os.makedirs(output_folder, exist_ok=True)
-#
-# # Save the processed DataFrame
-# output_path = os.path.join(output_folder, "output_metadiscourse_analysis_expanded.xlsx")
-# final_df.to_excel(output_path, index=False)
-#
-# print(f"✅ Expanded analysis saved to '{output_path}'")
-
-
-# import pandas as pd
-# import ast
-# import json
-# import os
-# import re
-#
-# # Load the analyzed file
-# df = pd.read_excel('result/output_metadiscourse_analysis_3.xlsx')
-#
-#
-# # Improved parsing function that handles multiple formats
-# def safe_parse(x):
-#     if pd.isnull(x):
-#         return []
-#
-#     try:
-#         # First, try to parse as-is (in case it's already a proper JSON array)
-#         return ast.literal_eval(x)
-#     except:
-#         try:
-#             # Try to parse with json.loads
-#             return json.loads(x)
-#         except:
-#             try:
-#                 # If it's multiple dict objects separated by commas, wrap in brackets
-#                 x_str = str(x).strip()
-#                 if x_str.startswith('{') and x_str.endswith('}'):
-#                     # Check if it contains multiple objects by counting opening braces
-#                     if x_str.count('}, {') > 0:
-#                         # Wrap in square brackets to make it a proper JSON array
-#                         x_str = '[' + x_str + ']'
-#                     else:
-#                         # Single object, wrap in brackets
-#                         x_str = '[' + x_str + ']'
-#
-#                 return json.loads(x_str)
-#             except:
-#                 try:
-#                     # Try ast.literal_eval on the bracketed version
-#                     return ast.literal_eval(x_str)
-#                 except:
-#                     print(f"Warning: Could not parse: {x}")
-#                     return []
-#
-#
-# # Apply the parsing function
-# df['expressions'] = df['Metadiscourse Analysis'].apply(safe_parse)
-#
-# # Ensure all items are lists (convert single dict to list)
-# df['expressions'] = df['expressions'].apply(lambda x: [x] if isinstance(x, dict) else x)
-#
-# # Filter out empty lists to avoid issues
-# df = df[df['expressions'].apply(len) > 0]
-#
-# # Expand expressions into separate rows
-# df_exploded = df.explode('expressions')
-#
-# # Remove rows where expressions is None or empty
-# df_exploded = df_exploded[df_exploded['expressions'].notna()]
-#
-# # Normalize the dictionary values into separate columns
-# expression_df = pd.json_normalize(df_exploded['expressions'])
-#
-# # Drop the old expressions column and combine with the normalized one
-# df_exploded = df_exploded.drop(columns=['expressions']).reset_index(drop=True)
-# final_df = pd.concat([df_exploded, expression_df], axis=1)
-#
-# # Ensure 'result' folder exists
-# output_folder = "result"
-# os.makedirs(output_folder, exist_ok=True)
-#
-# # Save the processed DataFrame
-# output_path = os.path.join(output_folder, "output_metadiscourse_analysis_expanded.xlsx")
-# final_df.to_excel(output_path, index=False)
-#
-# print(f"✅ Expanded analysis saved to '{output_path}'")
-# print(f"📊 Total rows in final dataset: {len(final_df)}")
-# print(f"📊 Columns: {list(final_df.columns)}")
-#
-# # Show a preview of the results
-# if len(final_df) > 0:
-#     print("\n📋 Preview of expanded data:")
-#     print(final_df[['expression', 'confidence', 'justification']].head())
-
-
 import pandas as pd
 import ast
 import json
@@ -171,22 +46,50 @@ def get_input_file():
             return None
 
 
+def clean_markdown_json(text):
+    """Remove markdown code block formatting from JSON text"""
+    if pd.isnull(text):
+        return text
+
+    text_str = str(text).strip()
+
+    # Remove markdown code blocks (```json ... ``` or ``` ... ```)
+    if text_str.startswith('```'):
+        # Find the end of the opening marker
+        lines = text_str.split('\n')
+        if len(lines) > 1:
+            # Remove first line (```json or ```)
+            lines = lines[1:]
+            # Remove last line if it's just ```
+            if lines and lines[-1].strip() == '```':
+                lines = lines[:-1]
+            text_str = '\n'.join(lines)
+
+    return text_str.strip()
+
+
 def safe_parse(x):
-    """Improved parsing function that handles multiple formats"""
+    """Enhanced parsing function that handles multiple formats including markdown-wrapped JSON"""
     if pd.isnull(x):
+        return []
+
+    # First, clean any markdown formatting
+    x_cleaned = clean_markdown_json(x)
+
+    if not x_cleaned:
         return []
 
     try:
         # First, try to parse as-is (in case it's already a proper JSON array)
-        return ast.literal_eval(x)
+        return ast.literal_eval(x_cleaned)
     except:
         try:
             # Try to parse with json.loads
-            return json.loads(x)
+            return json.loads(x_cleaned)
         except:
             try:
                 # If it's multiple dict objects separated by commas, wrap in brackets
-                x_str = str(x).strip()
+                x_str = str(x_cleaned).strip()
                 if x_str.startswith('{') and x_str.endswith('}'):
                     # Check if it contains multiple objects by counting opening braces
                     if x_str.count('}, {') > 0:
@@ -202,8 +105,14 @@ def safe_parse(x):
                     # Try ast.literal_eval on the bracketed version
                     return ast.literal_eval(x_str)
                 except:
-                    print(f"Warning: Could not parse: {x}")
-                    return []
+                    # Try to handle malformed JSON by fixing common issues
+                    try:
+                        # Replace single quotes with double quotes for JSON compatibility
+                        x_str = x_str.replace("'", '"')
+                        return json.loads(x_str)
+                    except:
+                        print(f"Warning: Could not parse: {x_cleaned[:100]}...")
+                        return []
 
 
 def process_metadiscourse_file(input_file):
@@ -213,22 +122,44 @@ def process_metadiscourse_file(input_file):
         print(f"📖 Loading file: {input_file}")
         df = pd.read_excel(input_file)
 
+        print(f"📊 Original dataset shape: {df.shape}")
+        print(f"📊 Columns: {list(df.columns)}")
+
+        # Check if the required column exists
+        if 'Metadiscourse Analysis' not in df.columns:
+            print("❌ 'Metadiscourse Analysis' column not found in the file.")
+            print(f"Available columns: {list(df.columns)}")
+            return None
+
         # Apply the parsing function
+        print("🔄 Parsing metadiscourse analysis data...")
         df['expressions'] = df['Metadiscourse Analysis'].apply(safe_parse)
+
+        # Show some parsing statistics
+        total_rows = len(df)
+        parsed_rows = len(df[df['expressions'].apply(len) > 0])
+        print(f"📊 Successfully parsed {parsed_rows} out of {total_rows} rows")
 
         # Ensure all items are lists (convert single dict to list)
         df['expressions'] = df['expressions'].apply(lambda x: [x] if isinstance(x, dict) else x)
 
         # Filter out empty lists to avoid issues
-        df = df[df['expressions'].apply(len) > 0]
+        df_filtered = df[df['expressions'].apply(len) > 0]
+        print(f"📊 Rows with valid expressions: {len(df_filtered)}")
+
+        if len(df_filtered) == 0:
+            print("❌ No valid expressions found after parsing. Please check the data format.")
+            return None
 
         # Expand expressions into separate rows
-        df_exploded = df.explode('expressions')
+        print("🔄 Expanding expressions into separate rows...")
+        df_exploded = df_filtered.explode('expressions')
 
         # Remove rows where expressions is None or empty
         df_exploded = df_exploded[df_exploded['expressions'].notna()]
 
         # Normalize the dictionary values into separate columns
+        print("🔄 Normalizing expression data...")
         expression_df = pd.json_normalize(df_exploded['expressions'])
 
         # Drop the old expressions column and combine with the normalized one
@@ -254,19 +185,33 @@ def process_metadiscourse_file(input_file):
         # Show a preview of the results
         if len(final_df) > 0:
             print("\n📋 Preview of expanded data:")
-            print(final_df[['expression', 'confidence', 'justification']].head())
+            # Show available columns for preview
+            preview_cols = []
+            for col in ['expression', 'confidence', 'justification', 'note']:
+                if col in final_df.columns:
+                    preview_cols.append(col)
+
+            if preview_cols:
+                print(final_df[preview_cols].head())
+            else:
+                print("Available columns:", list(final_df.columns))
+                print(final_df.head())
 
         return output_path
 
     except Exception as e:
         print(f"❌ Error processing file: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return None
 
 
 def main():
     """Main function to run the interactive processor"""
-    print("🔍 Metadiscourse Analysis Processor")
-    print("=" * 40)
+    print("🔍 Enhanced Metadiscourse Analysis Processor")
+    print("=" * 50)
+    print("This version handles both regular JSON and markdown-wrapped JSON formats")
+    print("=" * 50)
 
     # Get input file from user
     input_file = get_input_file()
