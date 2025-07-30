@@ -97,4 +97,4 @@ class AnnotationConfig:
 
     # Output settings
     SAVE_INTERMEDIATE = True  # Save progress periodically
-    OUTPUT_FORMAT = "xlsx"  # "xlsx" or "csv"
+    OUTPUT_FORMAT = "csv"  # "csv"

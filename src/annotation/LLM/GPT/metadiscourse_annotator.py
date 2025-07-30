@@ -282,10 +282,9 @@ class MetadiscourseAnnotator:
         """Save intermediate results."""
         intermediate_path = output_path.parent / f"{output_path.stem}_intermediate_{processed_count}{output_path.suffix}"
         try:
-            if AnnotationConfig.OUTPUT_FORMAT == "xlsx":
-                df.to_excel(intermediate_path, index=False)
-            else:
-                df.to_csv(intermediate_path, index=False)
+            intermediate_path = intermediate_path.with_suffix('.csv')
+            df.to_csv(intermediate_path, index=False)
+
             print(f"  💾 Intermediate results saved: {intermediate_path}")
         except Exception as e:
             print(f"  ⚠️  Failed to save intermediate results: {e}")
@@ -317,10 +316,11 @@ class MetadiscourseAnnotator:
 
         # Save based on format
         try:
-            if AnnotationConfig.OUTPUT_FORMAT == "xlsx" or output_path.suffix.lower() == '.xlsx':
-                df.to_excel(output_path, index=False)
-            else:
-                df.to_csv(output_path, index=False)
+            # if AnnotationConfig.OUTPUT_FORMAT == "xlsx" or output_path.suffix.lower() == '.xlsx':
+            #     df.to_excel(output_path, index=False)
+            # else:
+            #     df.to_csv(output_path, index=False)
+            df.to_csv(output_path.with_suffix('.csv'), index=False)
 
             print(f"✅ Results saved to: {output_path}")
             print(f"   Rows: {len(df)}")
