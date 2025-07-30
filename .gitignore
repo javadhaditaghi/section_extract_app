@@ -6,3 +6,5 @@ introductions/*
 pdf_theses/*
 result/*
 .env
+__pycache__/
+data/*
