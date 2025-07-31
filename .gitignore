@@ -8,3 +8,4 @@ result/*
 .env
 __pycache__/
 data/*
+README.md
