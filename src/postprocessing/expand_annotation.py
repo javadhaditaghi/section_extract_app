@@ -300,21 +300,45 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
 
             expression_df = pd.DataFrame(expression_data)
 
-        # Combine with original data (drop expressions column first)
+        # Combine with original data (drop expressions and Metadiscourse Analysis columns)
         df_exploded = df_exploded.drop(columns=['expressions'])
+
+        # Also remove the original Metadiscourse Analysis column since we've extracted its data
+        if 'Metadiscourse Analysis' in df_exploded.columns:
+            df_exploded = df_exploded.drop(columns=['Metadiscourse Analysis'])
+            print("🗑️  Removed original 'Metadiscourse Analysis' column")
+
         final_df = pd.concat([df_exploded.reset_index(drop=True),
                               expression_df.reset_index(drop=True)], axis=1)
 
-        # Generate output filename in the same directory
+        # Generate output filenames in the same directory
         output_filename = f"cleaned_{input_path.stem}.csv"
         output_path = input_path.parent / output_filename
 
-        # Save as CSV
-        final_df.to_csv(output_path, index=False)
+        narrow_output_filename = f"narrow_cleaned_{input_path.stem}.csv"
+        narrow_output_path = input_path.parent / narrow_output_filename
 
-        print(f"✅ Expanded analysis saved to: {output_path}")
-        print(f"📊 Total rows in final dataset: {len(final_df)}")
-        print(f"📊 Columns in output: {list(final_df.columns)}")
+        # Save the full cleaned CSV
+        final_df.to_csv(output_path, index=False)
+        print(f"✅ Full expanded analysis saved to: {output_path}")
+
+        # Create narrow version by dropping specified columns
+        columns_to_drop = ['source_file', 'source_stem', 'index', 'file_order', 'annotation_timestamp']
+
+        # Only drop columns that actually exist
+        existing_columns_to_drop = [col for col in columns_to_drop if col in final_df.columns]
+        narrow_df = final_df.drop(columns=existing_columns_to_drop)
+
+        if existing_columns_to_drop:
+            print(f"🗑️  Dropped columns for narrow version: {existing_columns_to_drop}")
+
+        # Save the narrow cleaned CSV
+        narrow_df.to_csv(narrow_output_path, index=False)
+        print(f"✅ Narrow expanded analysis saved to: {narrow_output_path}")
+
+        print(f"📊 Total rows in both datasets: {len(final_df)}")
+        print(f"📊 Full dataset columns ({len(final_df.columns)}): {list(final_df.columns)}")
+        print(f"📊 Narrow dataset columns ({len(narrow_df.columns)}): {list(narrow_df.columns)}")
 
         # Show a preview of the results
         if len(final_df) > 0:
@@ -359,7 +383,7 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
                 with_note = final_df['note'].astype(str).str.len().gt(0).sum()
                 print(f"📊 Entries with notes: {with_note}/{total_expressions}")
 
-        return str(output_path)
+        return str(output_path), str(narrow_output_path)
 
     except Exception as e:
         print(f"❌ Error processing file: {str(e)}")
@@ -385,14 +409,16 @@ def main():
         print(f"🤖 Provider: {Path(input_file).parent.name}")
 
         # Process the selected file
-        output_path = process_metadiscourse_file(input_file)
+        result = process_metadiscourse_file(input_file)
 
-        if output_path:
+        if result:
+            output_path, narrow_output_path = result
             print(f"\n🎉 Processing completed successfully!")
-            print(f"📄 Output saved to: {output_path}")
+            print(f"📄 Full output saved to: {output_path}")
+            print(f"📄 Narrow output saved to: {narrow_output_path}")
             print(f"\n💡 Next steps:")
-            print(f"   • Review the cleaned data in your CSV viewer")
-            print(f"   • Use the expanded data for statistical analysis")
+            print(f"   • Use full dataset for comprehensive analysis")
+            print(f"   • Use narrow dataset for focused analysis")
             print(f"   • Compare results across different LLM providers")
         else:
             print("\n❌ Processing failed.")
