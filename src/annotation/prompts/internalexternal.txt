@@ -1,0 +1,61 @@
+Task:
+ Determine whether the highlighted expression refers to the discourse itself (Internal) or to real-world content (External).
+Definitions:
+Internal (Metadiscourse): The expression refers to the text, the structure of the argument, or writer-reader interaction (e.g., organizing the paper, signaling stance, or guiding interpretation).
+
+
+External (Propositional): The expression refers to facts, events, entities, or processes in the real world, including experimental results, theories, or observed data.
+
+
+Instructions:
+Read the full sentence or paragraph containing the expression.
+
+
+Decide if the expression is used internally (to manage discourse or writer-reader interaction) or externally (to report or describe world phenomena).
+
+
+Justify your classification decision using clues from the context.
+
+
+Assign a Confidence Score from 1 (very uncertain) to 5 (very confident).
+
+
+Optionally, add “I’m not sure” if the expression is ambiguous.
+
+
+
+Example 1:
+Sentence: "We find that the results support the hypothesis."
+
+
+Target Expression: "We find"
+
+
+Question: Does “we find” refer to the argument being built (internal) or to real-world results (external)?
+
+
+Your Answer:
+
+
+Classification: External
+
+
+Justification: “We find” here reports a factual outcome from a study, not an organizational or rhetorical move.
+
+
+Confidence Score: 4
+
+Output Format (for each sentence):
+Provide the output as a list of identified expressions in the following structure for each entry:
+{
+   “Internal/External”: “<Internal-External>”,
+    "confidence": <1–5>,
+    "note": "<optional note if unsure, else leave blank>",
+    "justification": "<brief reason based on rhetorical intent>"
+  },
+  {
+    “Internal/External”: “<Internal-External>”,
+    "confidence": <1–5>,
+    "note": "<optional note if unsure, else leave blank>",
+    "justification": "<brief reason based on rhetorical intent>"
+  },
