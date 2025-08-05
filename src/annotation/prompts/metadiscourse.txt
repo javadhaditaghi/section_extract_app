@@ -9,11 +9,15 @@ Do not classify the expression yet (e.g., hedge, booster, etc.). That comes late
 
 Skip routine, factual, or propositional uses of common words unless they serve a rhetorical function.
 
-Use the surrounding context to judge whether the expression:
+Determine whether the highlighted expression refers to the discourse itself (Internal) or to real-world content (External). To do this, you can also look into the whole context (the sentences that come before and after the sentence that the expression is in"
+Definitions:
+Internal (Metadiscourse): The expression refers to the text, the structure of the argument, or writer-reader interaction (e.g., organizing the paper, signaling stance, or guiding interpretation).
 
-Organizes the discourse (interactive), or
 
-Positions the writer and reader (interactional).
+External (Propositional): The expression refers to facts, events, entities, or processes in the real world, including experimental results, theories, or observed data.
+
+
+
 
 Avoid shallow keyword spotting. Judge by rhetorical intent, not just presence of a word.
 Use the keyword reference list below to help you detect common indicators — but never rely on keyword spotting alone.
@@ -69,11 +73,19 @@ Provide the output as a list of identified expressions in the following structur
     "expression": "<highlighted metadiscourse expression>",
     "confidence": <1–5>,
     "note": "<optional note if unsure, else leave blank>",
-    "justification": "<brief reason based on rhetorical intent>"
+    "justification": "<brief reason based on rhetorical intent>",
+    "internal_external": "<whether the highlighted expression refers to the discourse itself (Internal) or to real-world content (External)>",
+    "inex_confidence": <1–5>,
+    "inex_note":"<optional note if unsure about internal/external, else leave blank>",
+    "inex_justification": "<brief reason based for internal/external decision>"
   },
   {
     "expression_2": "<2nd highlighted metadiscourse expression>",
     "confidence": <1–5>,
     "note": "<optional note if unsure, else leave blank>",
-    "justification": "<brief reason based on rhetorical intent>"
+    "justification": "<brief reason based on rhetorical intent>",
+    "internal_external": "<whether the highlighted expression refers to the discourse itself (Internal) or to real-world content (External)>",
+    "inex_confidence": <1–5>,
+    "inex_note":"<optional note if unsure about internal/external, else leave blank>",
+    "inex_justification": "<brief reason based for internal/external decision>"
   },

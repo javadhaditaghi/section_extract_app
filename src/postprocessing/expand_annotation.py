@@ -161,29 +161,45 @@ def safe_parse(x) -> List[Dict[str, Any]]:
 
     # If all parsing fails, try to extract any structured information
     try:
-        # Look for patterns like expression: "text", confidence: number, justification: "text", note: "text"
+        # Updated patterns to match the new structure
         expressions = []
         expression_pattern = r'expression["\s]*:[\s]*["\']([^"\']+)["\']'
-        confidence_pattern = r'confidence["\s]*:[\s]*([0-9.]+)'
-        justification_pattern = r'justification["\s]*:[\s]*["\']([^"\']*)["\']'
-        note_pattern = r'note["\s]*:[\s]*["\']([^"\']*)["\']'
+        confidence_pattern = r'(?<!inex_)confidence["\s]*:[\s]*([0-9.]+)'
+        justification_pattern = r'(?<!inex_)justification["\s]*:[\s]*["\']([^"\']*)["\']'
+        note_pattern = r'(?<!inex_)note["\s]*:[\s]*["\']([^"\']*)["\']'
+        internal_external_pattern = r'internal_external["\s]*:[\s]*["\']([^"\']*)["\']'
+        inex_confidence_pattern = r'inex_confidence["\s]*:[\s]*([0-9.]+)'
+        inex_note_pattern = r'inex_note["\s]*:[\s]*["\']([^"\']*)["\']'
+        inex_justification_pattern = r'inex_justification["\s]*:[\s]*["\']([^"\']*)["\']'
 
         expressions_found = re.findall(expression_pattern, x_cleaned, re.IGNORECASE)
         confidences_found = re.findall(confidence_pattern, x_cleaned, re.IGNORECASE)
         justifications_found = re.findall(justification_pattern, x_cleaned, re.IGNORECASE)
         notes_found = re.findall(note_pattern, x_cleaned, re.IGNORECASE)
+        internal_external_found = re.findall(internal_external_pattern, x_cleaned, re.IGNORECASE)
+        inex_confidences_found = re.findall(inex_confidence_pattern, x_cleaned, re.IGNORECASE)
+        inex_notes_found = re.findall(inex_note_pattern, x_cleaned, re.IGNORECASE)
+        inex_justifications_found = re.findall(inex_justification_pattern, x_cleaned, re.IGNORECASE)
 
         if expressions_found:
             for i, expr in enumerate(expressions_found):
                 conf = float(confidences_found[i]) if i < len(confidences_found) else 0.0
                 just = justifications_found[i] if i < len(justifications_found) else ""
                 note = notes_found[i] if i < len(notes_found) else ""
+                int_ext = internal_external_found[i] if i < len(internal_external_found) else ""
+                inex_conf = float(inex_confidences_found[i]) if i < len(inex_confidences_found) else 0.0
+                inex_note = inex_notes_found[i] if i < len(inex_notes_found) else ""
+                inex_just = inex_justifications_found[i] if i < len(inex_justifications_found) else ""
 
                 expressions.append({
                     'expression': expr,
                     'confidence': conf,
+                    'note': note,
                     'justification': just,
-                    'note': note
+                    'internal_external': int_ext,
+                    'inex_confidence': inex_conf,
+                    'inex_note': inex_note,
+                    'inex_justification': inex_just
                 })
             return expressions
     except:
@@ -260,11 +276,18 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
         try:
             expression_df = pd.json_normalize(df_exploded['expressions'])
 
-            # Ensure we have the expected columns, create them if missing
-            expected_columns = ['expression', 'confidence', 'justification', 'note']
+            # Updated expected columns to match the new structure
+            expected_columns = [
+                'expression', 'confidence', 'note', 'justification',
+                'internal_external', 'inex_confidence', 'inex_note', 'inex_justification'
+            ]
             for col in expected_columns:
                 if col not in expression_df.columns:
-                    expression_df[col] = ""
+                    # Set appropriate default values based on column type
+                    if 'confidence' in col:
+                        expression_df[col] = 0.0
+                    else:
+                        expression_df[col] = ""
                     print(f"📝 Added missing column: {col}")
 
             # Remove any unwanted columns like 'source'
@@ -282,20 +305,28 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
             expression_data = []
             for expr in df_exploded['expressions']:
                 if isinstance(expr, dict):
-                    # Extract specific fields we want
+                    # Extract specific fields we want with the new structure
                     cleaned_expr = {
                         'expression': expr.get('expression', ''),
                         'confidence': expr.get('confidence', 0.0),
+                        'note': expr.get('note', ''),
                         'justification': expr.get('justification', ''),
-                        'note': expr.get('note', '')
+                        'internal_external': expr.get('internal_external', ''),
+                        'inex_confidence': expr.get('inex_confidence', 0.0),
+                        'inex_note': expr.get('inex_note', ''),
+                        'inex_justification': expr.get('inex_justification', '')
                     }
                     expression_data.append(cleaned_expr)
                 else:
                     expression_data.append({
                         'expression': str(expr),
                         'confidence': 0.0,
+                        'note': '',
                         'justification': '',
-                        'note': ''
+                        'internal_external': '',
+                        'inex_confidence': 0.0,
+                        'inex_note': '',
+                        'inex_justification': ''
                     })
 
             expression_df = pd.DataFrame(expression_data)
@@ -344,23 +375,23 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
         if len(final_df) > 0:
             print("\n📋 Preview of expanded data:")
 
-            # Try to show relevant columns
+            # Try to show relevant columns - updated for new structure
             preview_cols = []
             # Prioritize the main columns we expect
-            main_cols = ['expression', 'confidence', 'justification', 'note']
+            main_cols = ['expression', 'confidence', 'justification', 'internal_external', 'inex_confidence']
             for col in main_cols:
                 if col in final_df.columns:
                     preview_cols.append(col)
 
             # Add other interesting columns if space allows
-            other_cols = ['category', 'type', 'sentence']
+            other_cols = ['category', 'type', 'sentence', 'note']
             for col in other_cols:
-                if col in final_df.columns and len(preview_cols) < 6:
+                if col in final_df.columns and len(preview_cols) < 7:
                     preview_cols.append(col)
 
             if not preview_cols:
                 # Show first few columns if no standard ones found
-                preview_cols = list(final_df.columns)[:5]
+                preview_cols = list(final_df.columns)[:7]
 
             print(final_df[preview_cols].head(3))
 
@@ -375,13 +406,25 @@ def process_metadiscourse_file(input_file: str) -> Optional[str]:
                 avg_confidence = final_df['confidence'].mean()
                 print(f"📊 Average confidence: {avg_confidence:.2f}")
 
+            # Show statistics for new internal/external fields
+            if 'internal_external' in final_df.columns:
+                internal_external_counts = final_df['internal_external'].value_counts()
+                print(f"📊 Internal/External distribution:")
+                for category, count in internal_external_counts.items():
+                    if category:  # Only show non-empty categories
+                        print(f"   {category}: {count}")
+
+            if 'inex_confidence' in final_df.columns:
+                avg_inex_confidence = final_df['inex_confidence'].mean()
+                print(f"📊 Average internal/external confidence: {avg_inex_confidence:.2f}")
+
             if 'justification' in final_df.columns:
                 with_justification = final_df['justification'].astype(str).str.len().gt(0).sum()
                 print(f"📊 Entries with justification: {with_justification}/{total_expressions}")
 
-            if 'note' in final_df.columns:
-                with_note = final_df['note'].astype(str).str.len().gt(0).sum()
-                print(f"📊 Entries with notes: {with_note}/{total_expressions}")
+            if 'inex_justification' in final_df.columns:
+                with_inex_justification = final_df['inex_justification'].astype(str).str.len().gt(0).sum()
+                print(f"📊 Entries with internal/external justification: {with_inex_justification}/{total_expressions}")
 
         return str(output_path), str(narrow_output_path)
 
@@ -398,6 +441,7 @@ def main():
     print("=" * 60)
     print("This tool expands LLM annotation results into structured data")
     print("Supports: GPT, Claude, DeepSeek, Gemini annotation outputs")
+    print("Updated for new JSON structure with internal/external classification")
     print("=" * 60)
 
     # Get input file from user
@@ -420,6 +464,7 @@ def main():
             print(f"   • Use full dataset for comprehensive analysis")
             print(f"   • Use narrow dataset for focused analysis")
             print(f"   • Compare results across different LLM providers")
+            print(f"   • Analyze internal vs external metadiscourse patterns")
         else:
             print("\n❌ Processing failed.")
             print("💡 Troubleshooting tips:")
